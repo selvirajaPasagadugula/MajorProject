@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    MeheDe | Home
+{% endblock %}
+
+    {% block content %}
+    <div class="card mx-auto bg-light mt-5 pt-3" style="width: 16rem;">
+      <img src="{{ url_for('static',filename='sample_kid.png') }}" class="card-img-top mx-auto" style="width:25%;" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title" style="font-weight:400;">Hey Buddiiee..!</h5>
+        <p class="card-text"  style="font-weight:300;">Yes, I'm Tiny but I'm the most cutest and smartest Kid you could ever talk to..!</p>
+        <a href="#" class="btn btn-secondary" style="font-weight:450;">Talk to Me!</a>
+      </div>
+    </div>
+    {% endblock %}
